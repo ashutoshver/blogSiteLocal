@@ -184,7 +184,7 @@ body {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (min-width: 300px) and (max-width: 748px) {
 
   .post{
     width: 90%;
@@ -192,8 +192,10 @@ body {
   }
   .post form textarea{
     width: 60%;
+    font-size: 12px;
   }
   .post form button{
-    width: 30%;
+    width: 40%;
+    font-size: 12px;
   }
 }
